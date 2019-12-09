@@ -1,0 +1,122 @@
+/*Colors and fonts*/
+body {
+	background: #B8916D;
+	color: #363636;
+	font-family: 'Josefin Slab', serif;
+	font-size: 22px;
+	font-weight: lighter;
+}
+
+h1{
+color: #272727;
+font-size: 68px;
+font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+	color: #307A88;
+	font-size: 38px;
+	font-weight: lighter;
+}
+
+h2,h3 {
+	font-family: 'Josefin Slab', serif;
+}
+
+a {
+	text-decoration: none;
+    
+}
+
+a:hover {
+	color: #B58B63;
+}
+
+
+.container {
+	width: 1000px;
+	margin: 50px auto;
+}
+
+.card-white {
+	background-color: #F4EBE1;
+	padding: 40px;
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.img-circle{
+	border-radius: 50%;
+	width:200px;
+}
+
+.btn-green {
+	text-decoration: none;
+	color: #F5EBE1;
+    font-weight: 500px;
+    font-size: 25px;
+    background-color: #307A88;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.btn-green hover {
+	background-color: #F5EBE1;
+	color: #B58B63;
+	transition: color 0.3s ease;
+}
+
+#card-green {
+	background-color: #307A88;
+	color: white;
+}
+
+#card-green h2 {
+	color: #F5EBE1;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  color: white;
+}
+.list-inline > li {
+  display: inline; 
+  color:white;
+  padding: 0px 20px; }
+
+  #introduction p {
+  	margin-bottom: 40px
+  }
+
+.fa-facebook-square:before {
+    content: "\f082";
+    color: #F5EBE1;
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+    color: #F5EBE1;
+}
+
+.fa-linkedin:before {
+    content: "\f08c";
+    color: #F5EBE1;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
